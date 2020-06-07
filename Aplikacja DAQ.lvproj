@@ -13,9 +13,9 @@
 		<Item Name="Communication" Type="Folder" URL="../Communication">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="DAQ" Type="Folder" URL="../DAQ">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="DAQ.lvlib" Type="Library" URL="../DAQ/DAQ.lvlib"/>
+		<Item Name="main-Actions.ctl" Type="VI" URL="../main-Actions.ctl"/>
+		<Item Name="main-Data.ctl" Type="VI" URL="../main-Data.ctl"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
